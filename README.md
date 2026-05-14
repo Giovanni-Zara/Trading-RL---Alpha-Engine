@@ -527,6 +527,8 @@ Each expression is fully interpretable and can be evaluated on new data with a s
 
 ---
 
+## Created by [Giovanni Zara](https://github.com/Giovanni-Zara) and [Paolo Laurenti](https://github.com/PaoloLaur)
+
 ## License
 
 See [LICENSE.txt](LICENSE.txt).
