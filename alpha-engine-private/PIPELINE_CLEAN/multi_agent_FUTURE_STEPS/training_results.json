@@ -1,0 +1,156 @@
+{
+  "AAPL": {
+    "best_reward": 1.7028616112080597,
+    "best_sharpe": 1.7028616112080597,
+    "best_expression": "max(alpha_mean_rev(3), max(alpha_bollinger(3), max(max(alpha_mean_rev(3), max(ts_rank(alpha_range(3), 3), alpha_mean_rev(3))), max(alpha_mean_rev(3), alpha_rsi(3)))))",
+    "category": "tech",
+    "n_episodes": 50000
+  },
+  "MSFT": {
+    "best_reward": 2.1267097296767403,
+    "best_sharpe": 2.1267097296767403,
+    "best_expression": "add(ts_min(alpha_bollinger(2), 2), alpha_bollinger(2))",
+    "category": "tech",
+    "n_episodes": 50000
+  },
+  "GOOGL": {
+    "best_reward": 1.6940873137911898,
+    "best_sharpe": 1.6940873137911898,
+    "best_expression": "add(ts_max(alpha_mean_rev(5), 3), alpha_pv_diverge(3))",
+    "category": "tech",
+    "n_episodes": 50000
+  },
+  "INTC": {
+    "best_reward": 2.2806880697194845,
+    "best_sharpe": 2.2806880697194845,
+    "best_expression": "add(alpha_bollinger(3), add(sign(alpha_pv_diverge(2)), add(ts_rank(alpha_bollinger(2), 3), add(alpha_mean_rev(3), max(alpha_pv_diverge(3), add(alpha_pv_diverge(3), 2))))))",
+    "category": "tech",
+    "n_episodes": 50000
+  },
+  "CSCO": {
+    "best_reward": 1.6231245992529129,
+    "best_sharpe": 1.6231245992529129,
+    "best_expression": "min(alpha_mean_rev(3), min(min(alpha_mean_rev(3), add(min(min(alpha_bollinger(5), ts_min(delta(alpha_rsi(5), 5), 5)), min(High, Open)), alpha_range(5))), Low))",
+    "category": "tech",
+    "n_episodes": 50000
+  },
+  "JPM": {
+    "best_reward": 1.6046132283917194,
+    "best_sharpe": 1.6046132283917194,
+    "best_expression": "max(alpha_pv_diverge(5), delta(max(min(ts_zscore(ts_zscore(max(ts_rank(alpha_bollinger(5), 5), alpha_bollinger(5)), 3), 3), alpha_mean_rev(3)), alpha_mom(120)), 120))",
+    "category": "finance",
+    "n_episodes": 50000
+  },
+  "BAC": {
+    "best_reward": 1.4609183738056573,
+    "best_sharpe": 1.4609183738056573,
+    "best_expression": "add(delta(alpha_pv_diverge(3), 3), min(alpha_pv_diverge(3), delta(delta(alpha_pv_diverge(3), 5), 5)))",
+    "category": "finance",
+    "n_episodes": 50000
+  },
+  "GS": {
+    "best_reward": 1.416848388197604,
+    "best_sharpe": 1.416848388197604,
+    "best_expression": "ts_std(ts_zscore(alpha_gap(5), 5), 5)",
+    "category": "finance",
+    "n_episodes": 50000
+  },
+  "WFC": {
+    "best_reward": 1.3705228823558009,
+    "best_sharpe": 1.3705228823558009,
+    "best_expression": "max(alpha_bollinger(3), delay(min(Low, max(min(alpha_bollinger(3), alpha_mean_rev(3)), ts_zscore(alpha_mean_rev(3), 3))), 3))",
+    "category": "finance",
+    "n_episodes": 50000
+  },
+  "JNJ": {
+    "best_reward": 1.9341463619099704,
+    "best_sharpe": 1.9341463619099704,
+    "best_expression": "add(sign(alpha_close_loc(120)), sign(alpha_close_loc(2)))",
+    "category": "healthcare",
+    "n_episodes": 50000
+  },
+  "PFE": {
+    "best_reward": 1.5241149516654144,
+    "best_sharpe": 1.5241149516654144,
+    "best_expression": "min(alpha_close_loc(2), min(ts_min(alpha_close_loc(10), 10), alpha_vpt(10)))",
+    "category": "healthcare",
+    "n_episodes": 50000
+  },
+  "UNH": {
+    "best_reward": 1.3878950767901923,
+    "best_sharpe": 1.3878950767901923,
+    "best_expression": "add(delta(alpha_acceleration(5), 2), ts_min(delta(abs(ts_rank(alpha_gap(2), 2)), 2), 2))",
+    "category": "healthcare",
+    "n_episodes": 50000
+  },
+  "MRK": {
+    "best_reward": 1.27978191915375,
+    "best_sharpe": 1.27978191915375,
+    "best_expression": "sub(alpha_pv_diverge(5), max(sub(sign(0), alpha_close_loc(5)), max(alpha_close_loc(50), returns(sub(delay(alpha_mom(50), 50), ts_max(alpha_rsi(50), 50)), 50))))",
+    "category": "healthcare",
+    "n_episodes": 50000
+  },
+  "WMT": {
+    "best_reward": 1.5969730320145434,
+    "best_sharpe": 1.5969730320145434,
+    "best_expression": "add(alpha_pv_diverge(5), ts_min(alpha_pv_diverge(3), 5))",
+    "category": "consumer",
+    "n_episodes": 50000
+  },
+  "KO": {
+    "best_reward": 1.2285938817034743,
+    "best_sharpe": 1.2285938817034743,
+    "best_expression": "ts_min(delta(alpha_pv_diverge(5), 120), 120)",
+    "category": "consumer",
+    "n_episodes": 50000
+  },
+  "PG": {
+    "best_reward": 1.408099545757496,
+    "best_sharpe": 1.408099545757496,
+    "best_expression": "max(alpha_vol_surge(120), alpha_mom(50))",
+    "category": "consumer",
+    "n_episodes": 50000
+  },
+  "MCD": {
+    "best_reward": 1.4289451269214153,
+    "best_sharpe": 1.4289451269214153,
+    "best_expression": "div(alpha_mean_rev(5), alpha_close_loc(5))",
+    "category": "consumer",
+    "n_episodes": 50000
+  },
+  "GE": {
+    "best_reward": 2.05770521674132,
+    "best_sharpe": 2.05770521674132,
+    "best_expression": "min(alpha_bollinger(20), min(min(min(alpha_bollinger(20), alpha_bollinger(20)), alpha_pv_diverge(20)), min(alpha_bollinger(20), ts_min(alpha_bollinger(50), 50))))",
+    "category": "industrial",
+    "n_episodes": 50000
+  },
+  "CAT": {
+    "best_reward": 1.6760384083674746,
+    "best_sharpe": 1.6760384083674746,
+    "best_expression": "min(alpha_mean_rev(5), ts_min(ts_min(ts_min(alpha_bollinger(20), 20), 5), 2))",
+    "category": "industrial",
+    "n_episodes": 50000
+  },
+  "BA": {
+    "best_reward": 1.4607163497588762,
+    "best_sharpe": 1.4607163497588762,
+    "best_expression": "min(alpha_range(5), add(min(alpha_range(5), High), add(alpha_mean_rev(120), alpha_bollinger(2))))",
+    "category": "industrial",
+    "n_episodes": 50000
+  },
+  "XOM": {
+    "best_reward": 1.6336812442451811,
+    "best_sharpe": 1.6336812442451811,
+    "best_expression": "min(alpha_mom(5), delta(min(alpha_mean_rev(5), max(alpha_bollinger(5), max(min(alpha_vpt(5), alpha_pv_diverge(20)), alpha_mom(20)))), 20))",
+    "category": "energy",
+    "n_episodes": 50000
+  },
+  "CVX": {
+    "best_reward": 1.631396115793814,
+    "best_sharpe": 1.631396115793814,
+    "best_expression": "min(alpha_mean_rev(3), alpha_acceleration(2))",
+    "category": "energy",
+    "n_episodes": 50000
+  }
+}

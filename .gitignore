@@ -1,0 +1,83 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+venv_fisso/
+env/
+.venv/
+.virtualenv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# =========================
+# Data / Experiments
+# =========================
+data/raw/
+data/interim/
+data/processed/
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.parquet
+*.csv
+*.tsv
+
+# =========================
+# Logs & Outputs
+# =========================
+logs/
+*.log
+results/
+outputs/
+checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# =========================
+# Misc
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+
+alpha-engine-private/PIPELINE_CLEAN/data/

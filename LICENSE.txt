@@ -1,0 +1,17 @@
+Copyright (c) [2026] [Giovanni Zara, Paolo Laurenti]
+
+All Rights Reserved.
+
+This software and associated documentation files (the "Software") are the proprietary property of [Giovanni Zara, Paolo Laurenti].
+
+Unlicensed use, duplication, or distribution of this Software, in whole or in part, is strictly prohibited.
+
+You may view the source code for educational or portfolio evaluation purposes only. You may not:
+
+Use this Software for any commercial or non-commercial trading activities.
+
+Modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
+Use this Software to create derivative works.
+
+To obtain a license for commercial use, please contact: [giovizara@gmail.com].
