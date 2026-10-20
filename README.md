@@ -1,4 +1,4 @@
-# Alpha Engine — Reinforcement Learning for Alpha Expression Discovery
+# Alpha Engine - Reinforcement Learning for Alpha Expression Discovery
 
 ## Overview
 
